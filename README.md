@@ -16,3 +16,5 @@ The penguin simulator is more complicated that it seems to the user, with many o
 If you want the actual values to be revealed and are willing to ruin the immersion, type "debug" in the action screen.
 
 The game is essentially turn based, revolving around the user taking an action and facing the effects... or consequences! There are multiple scenatios leading to the User's death. I will add some happier ending scenarios next time I revisit this project.
+
+### Just run the PenguinSim.rb file in the terminal to try out the simulator!
