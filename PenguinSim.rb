@@ -83,7 +83,7 @@ class Penguin
     case foodType
     when "help" # secret command to show food options
       puts "penguins like to eat shrimp, fish, tuna, crab, krill, peaches, souls, humans, etc."
-    when "shrimp", "fish", "tuna", "crab", "krill", "peaches", "peach pie", "blackberries", "food", "seafood", "trout", "pie", "cake", "berries", "lettuce"
+    when "shrimp", "fish", "tuna", "crab", "krill", "peaches", "peach pie", "blackberries", "food", "seafood", "trout", "pie", "cake", "berries", "lettuce", "salmon", "halibut", "herring", "carp"
       puts "#{$name} fed #{@petname} some delicious looking #{foodType}!"
       if @foodInBelly >= 10 # penguin is too full to eat
         puts "#{@petname} did not eat the #{foodType}!"
